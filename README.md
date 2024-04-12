@@ -16,7 +16,7 @@ W każdym z kolejnych 𝐶 wierszy wejścia znajduje się opis 𝑖-tej monety, 
 ## Specyfikacja danych wyjściowych
 Pierwszy wiersz wyjścia powinien zawierać słowo TAK, jeśli masa 𝐹 jest możliwa do uzyskania za pomocą dostępnych na rynku monet, zaś słowo NIE w przeciwnym przypadku.
 
-W przypadku odpowiedzi pozytywnej Twój program powinien wypisać cztery dodatkowe wiersze.W drugim wierszu wyjścia powinna znajdować się wtedy liczba $𝑃_{min}$, będąca możliwą sumaryczną minimalną wartością monet (w groszach) znajdujących się w pudełku. Trzeci wiersz wyjścia powinien zawierać opis uzyskania wartości 𝑃min: 𝐶 liczb naturalnych 𝑥1, 𝑥2, . . . , 𝑥𝐶 oddzielonych pojedynczymi spacjami, oznaczających że 𝑖-tą monetę bierzemy 𝑥𝑖 razy, tzn. spełniających warunki $\sum^𝐶_{𝑖=1}$𝑥𝑖 · 𝑝𝑖 = $𝑃_{min}$ oraz $\sum^𝐶_{𝑖=1}$ 𝑥𝑖 · 𝑤𝑖 = 𝐹.
+W przypadku odpowiedzi pozytywnej Twój program powinien wypisać cztery dodatkowe wiersze.W drugim wierszu wyjścia powinna znajdować się wtedy liczba $𝑃_{min}$, będąca możliwą sumaryczną minimalną wartością monet (w groszach) znajdujących się w pudełku. Trzeci wiersz wyjścia powinien zawierać opis uzyskania wartości 𝑃min: 𝐶 liczb naturalnych 𝑥1, 𝑥2, . . . , 𝑥𝐶 oddzielonych pojedynczymi spacjami, oznaczających że 𝑖-tą monetę bierzemy 𝑥𝑖 razy, tzn. spełniających warunki ${\sum}^𝐶_{𝑖=1}$𝑥𝑖 · 𝑝𝑖 = $𝑃_{min}$ oraz ${\sum}^𝐶_{𝑖=1}$ 𝑥𝑖 · 𝑤𝑖 = 𝐹.
 
 W czwartym wierszu wyjścia powinna znajdować się liczba $𝑃_{max}$ będąca możliwą sumaryczną maksymalną wartością monet w pudełku, zaś piąty wiersz powinien zawierać opis uzyskania $𝑃_{max}$ w identycznym formacie jak w przypadku wiersza trzeciego.
 
